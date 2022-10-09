@@ -1,0 +1,41 @@
+@media screen and (min-width:750px) and (max-width:990px) {
+  body{
+    background-image: linear-gradient(to bottom, #6CE3F5, #B6EEF7);
+  }
+
+  #login{
+    width: 90vw;
+  }
+
+  #image{
+    float: left;
+    width: 30%;
+    height: 100%;
+  }
+
+  #form{
+    float: right;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:990px) {
+  body{
+    background-image: linear-gradient(to bottom,#6CE3F5,#B6EEF7);
+  }
+
+  #login{
+    width: 990px;
+  }
+
+  #image{
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+
+  #form{
+    float: left;
+    width: 50%;
+  }
+}
